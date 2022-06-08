@@ -102,6 +102,7 @@
     <Compile Include="Calorie.aspx.designer.cs">
       <DependentUpon>Calorie.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Context.cs" />
     <Compile Include="Donate.aspx.cs">
       <DependentUpon>Donate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
