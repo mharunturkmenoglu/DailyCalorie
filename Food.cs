@@ -9,5 +9,6 @@ namespace DailyCalorie
     {
         public string Name { get; set; }
         public int Calorie { get; set; }
+        public string Image { get; set; }
     }
 }
