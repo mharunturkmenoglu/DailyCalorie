@@ -15,9 +15,17 @@ namespace DailyCalorie
             foodList = context.GetAllFood();
             userList = context.GetAllUsers();
 
-            Label1.Text = "Name:" + foodList[7].Name + " Calorie:" + foodList[7].Calorie + " count:" + foodList.Count;
-            Label2.Text = "Name:" + userList[1].Name + " Gender:" + userList[1].Gender + " count:" + userList.Count;
+           
 
+
+        }
+
+        protected void calculateButton_Click(object sender, EventArgs e)
+        {
+           string x= weighttextbox.Value;
+            x= weighttextbox.Value.ToString();
+            
+            
         }
     }
 }
