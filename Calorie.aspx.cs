@@ -74,7 +74,7 @@ namespace DailyCalorie
 
         protected void backButton_Click(object sender, EventArgs e)
         {
-            //TODO : Go back to home screen
+            Response.Redirect("Home.aspx");
         }
     }
 }
