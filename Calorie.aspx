@@ -51,28 +51,16 @@
           <h1 class="home-text">Calorie Calculator</h1>
         </div>
         <div class="home-container02">
-          <span class="home-text1">Weight</span>
-          <input
-            type="text"
-            placeholder="in kg"
-            id="weighttextbox"
-            class="home-textinput input"
-              runat="server"
-          />
+          <span class="home-text1">Weight</span>&nbsp;
+            <asp:TextBox ID="weightTextbox" runat="server" CssClass="input"></asp:TextBox>
         </div>
         <div class="home-container03">
           <span class="home-text2">Height</span>
-          <input
-            type="text"
-            placeholder="in cm"
-            id="heighttextbox"
-            class="home-textinput1 input"
-              runat="server"
-          />
+            <asp:TextBox ID="heightTextbox" runat="server" CssClass="input"></asp:TextBox>
         </div>
         <div class="home-container04">
           <span class="home-text3">Age</span>
-          <input type="text" id="agetextbox" class="home-textinput2 input" />
+            <asp:TextBox ID="ageTextbox" runat="server" CssClass="input"></asp:TextBox>
         </div>
         <div class="home-container05">
           <span class="home-text4" runat="server" >Gender</span>&nbsp;
@@ -105,7 +93,7 @@
           />
         </div>
         <div class="home-container10">
-            <asp:Button ID="backButton" runat="server" Height="49px" Text="Go Back" Width="154px" />
+            <asp:Button ID="backButton" runat="server" Height="49px" Text="Go Back" Width="154px" OnClick="backButton_Click" />
         </div>
       </div>
     </div>
