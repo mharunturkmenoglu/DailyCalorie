@@ -33,10 +33,10 @@ namespace DailyCalorie
                     cookie.Expires = DateTime.Now.AddDays(30);
                     Response.Cookies.Add(cookie);
                     Response.Redirect("Home.aspx", true);
-                    Session["CartDetails"] = cartDetails;
+                    List<CartDetails> cartDetailsList = new List<CartDetails>();
+                    Session["CartDetails"] = cartDetailsList;
                 }
             }
-            
         }
     }
 }
